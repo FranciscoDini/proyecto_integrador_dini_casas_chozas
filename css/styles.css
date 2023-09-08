@@ -1,0 +1,91 @@
+/*generales*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(../images/fondo.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*header*/
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    align-self: center;
+    border-radius: 10%;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*main*/
+
+.main-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-index h2{
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+.populares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.peli{
+    background-color: black;
+    padding: 2%;
+    margin: 20px;
+    justify-content: flex-start;
+    border-radius: 10%;
+}
+
+.peli img{
+    width: 200px;
+    height: 300px;
+}
+
+
+/*footer*/
+
+footer{
+    color: white;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+

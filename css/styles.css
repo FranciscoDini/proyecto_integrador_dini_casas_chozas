@@ -1,7 +1,22 @@
 /*generales*/
 
+p{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: solid;
+}
+
+h2{
+    font-family:'Chakra Petch', sans-serif;
+    text-decoration: solid;
+}
+
 ul{
     list-style: none;
+    font-family:'Chakra Petch', sans-serif;
 }
 
 a{
@@ -36,6 +51,8 @@ header{
     width: 200px;
     align-self: center;
     border-radius: 15px;
+    border-style: solid;
+    border-color: white;
 }
 
 header img{
@@ -69,7 +86,10 @@ header img{
     padding: 2%;
     margin: 20px;
     justify-content: flex-start;
-    border-radius: 10%;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+
 }
 
 .peli img{

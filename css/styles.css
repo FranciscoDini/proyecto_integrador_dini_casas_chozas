@@ -2,21 +2,35 @@
 
 p{
     font-family: 'Chakra Petch', sans-serif;
+    color: white;
 }
 
 h1{
     font-family: 'Chakra Petch', sans-serif;
     text-decoration: solid;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
 }
 
 h2{
     font-family:'Chakra Petch', sans-serif;
     text-decoration: solid;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
 }
 
 ul{
     list-style: none;
     font-family:'Chakra Petch', sans-serif;
+    color: white;
 }
 
 a{
@@ -61,18 +75,16 @@ header img{
     border-radius: 50%;
 }
 
+header h1{
+    border-style: none;
+}
+
 /*main*/
 
 .main-index{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.main-index h2{
-    background-color: black;
-    color: white;
-    width: fit-content;
 }
 
 .populares{
@@ -120,9 +132,13 @@ footer img{
 
 footer h2{
     justify-self: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
-
+.creadores{
+    border-style: none;
+}
 
 
 /*Detalle pelicula/serie*/
@@ -160,4 +176,31 @@ footer h2{
 .info{
     display: flex;
     justify-content: space-evenly;
+}
+
+
+
+/*pagina generos*/
+
+.gen{
+    margin: 20px auto;
+}
+
+.generos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 600px;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.generos li{
+    border-style: solid;
+    border-color: white;
+    width: 150px;
+    text-align: center;
 }

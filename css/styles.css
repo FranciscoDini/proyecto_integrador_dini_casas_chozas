@@ -257,3 +257,13 @@ footer h2{
     width: 150px;
     text-align: center;
 }
+
+/*favoritos*/
+
+.favoritos{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    align-self: center;
+}

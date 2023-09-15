@@ -1,4 +1,8 @@
 /*generales*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 p{
     font-family: 'Chakra Petch', sans-serif;
@@ -44,23 +48,63 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 24px;
 }
 
 .main-container{
-    max-width: 1180px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0 24px;
 }
 
+
+
+
+/*main*/
+
+.main-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.populares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.peli{
+    background-color: #0e0b0b;
+    padding: 2%;
+    margin: 20px;
+    justify-content: flex-start;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.peli img{
+    width: 200px;
+    height: 300px;
+}
+
+.tituloPeli{
+    margin-top: 12px;
+}
 
 /*header*/
 
 header{
-    background-color: black;
+    background-color: #0e0b0b;
     display: flex;
     justify-content: space-between;
     padding: 12px 24px;
     align-items: center;
+    max-width: 1140px;
     width: 100%;
     align-self: center;
     border-radius: 15px;
@@ -89,7 +133,7 @@ header h1{
     padding: 12px;
     background-color: #fff;
     border-radius: 12px;
-    width: 360px;
+    max-width: 360px;
 }
 
 .searchMovie{
@@ -110,46 +154,16 @@ header h1{
     column-gap: 12px;
 }
 
-/*main*/
-
-.main-index{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.populares{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.peli{
-    background-color: black;
-    padding: 2%;
-    margin: 20px;
-    justify-content: flex-start;
-    border-radius: 12px;
-    border-style: solid;
-    border-color: white;
-
-}
-
-.peli img{
-    width: 200px;
-    height: 300px;
-}
-
-
 /*footer*/
 
 footer{
     color: white;
-    background-color: red;
-    height: 100px;
+    background-color: #0e0b0b;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    height: fit-content;
     border-radius: 15px;
 }
 
@@ -163,14 +177,13 @@ footer img{
 
 footer h2{
     justify-self: flex-start;
-    background-color: rgba(0, 0, 0, 0);
-
+    background-color: #0e0b0b;
+    height: fit-content;
 }
 
 .creadores{
     border-style: none;
 }
-
 
 /*Detalle pelicula/serie*/
 
@@ -242,7 +255,7 @@ footer h2{
 .generos{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #0e0b0b;
     width: 600px;
     justify-content: space-evenly;
     font-size: 30px;
@@ -266,4 +279,23 @@ footer h2{
 }
 h1{
     align-self: center;
+}
+
+
+/* Tablet Responsive */
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    footer ul{
+        text-align: center;
+    }
 }

@@ -127,6 +127,7 @@ header{
 
 header h1{
     border-style: none;
+    background-color: #0e0b0b;
 }
 
 .searchBar{

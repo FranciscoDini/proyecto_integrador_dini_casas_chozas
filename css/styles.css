@@ -118,10 +118,11 @@ header{
     column-gap: 12px;
 }
 
-header img{
-    width: 100px;
-    height: 100px;
+.header-left-block img{
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    margin: 12px 0;
 }
 
 header h1{
@@ -134,6 +135,11 @@ header h1{
     background-color: #fff;
     border-radius: 12px;
     max-width: 360px;
+    height: 40px;
+}
+
+.searchBar a{
+    align-self: center;
 }
 
 .searchMovie{
@@ -207,20 +213,31 @@ footer h2{
     align-self: center;
 }
 
+.detail img {
+    margin-top: 24px;
+}
+
 .portada{
-    width: 400px;
-    height: 600px;
+    width: 70%;
+    height: auto;
     align-self: center;
 }
 
 .rating-favs{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.rating-favs img{
+    margin: 0;
 }
 
 .detail-favoritos{
     display: flex;
     column-gap: 12px;
+    height: fit-content;
 }
 
 .detail-favoritos p{
@@ -297,5 +314,15 @@ h1{
 
     footer ul{
         text-align: center;
+    }
+
+    .rating-favs{
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    
+    .detail-info{
+        flex-direction: column;
+        row-gap: 12px;
     }
 }

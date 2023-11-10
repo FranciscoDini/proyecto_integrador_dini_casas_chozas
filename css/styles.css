@@ -70,6 +70,26 @@ body{
     margin-top: 24px;
 }
 
+.movieResults{
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    background-color: #0e0b0b;
+    border-radius: 6px;
+    margin: 24px 0;
+}
+
+.movieResults img{
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+.movieResults h3{
+    max-width: 150px;
+}
+
 .populares{
     display: flex;
     flex-wrap: wrap;

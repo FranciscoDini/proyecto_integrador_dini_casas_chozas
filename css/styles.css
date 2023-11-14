@@ -147,6 +147,7 @@ header{
 
 header h1{
     border-style: none;
+    background-color: #0e0b0b;
 }
 
 .searchBar{
@@ -344,5 +345,32 @@ h1{
     .detail-info{
         flex-direction: column;
         row-gap: 12px;
+        flex-wrap: wrap;
     }
 }
+
+
+/* telefono responsive */
+
+@media (max-width: 425px){
+
+    .detail{
+        width: 100%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .generos{
+        flex-direction: column;
+        width: fit-content;
+        row-gap: 12px;
+    }
+
+    h1{
+        margin-top: 20px;
+    }
+
+}
+

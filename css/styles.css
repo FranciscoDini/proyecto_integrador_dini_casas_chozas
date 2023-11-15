@@ -21,14 +21,14 @@ h1{
 }
 
 h2{
-    font-family:'Chakra Petch', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
     text-decoration: solid;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.568);
     width: fit-content;
     padding: 10px;
-    border-style: solid;
-    border-color: white;
+   /* border-style: solid;
+    border-color: white;*/
 }
 
 ul{
@@ -97,13 +97,11 @@ body{
 }
 
 .peli{
-    background-color: #0e0b0b;
+    background-color: #0e0b0b9c;
     padding: 2%;
     margin: 20px;
     justify-content: flex-start;
     border-radius: 12px;
-    border-style: solid;
-    border-color: white;
 
 }
 
@@ -192,6 +190,7 @@ footer{
     min-height: 100px;
     height: fit-content;
     border-radius: 15px;
+    margin-top: 20px;
 }
 
 footer img{

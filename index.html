@@ -22,7 +22,7 @@
         <Header>
             <div class="header-left-block">
                 <a href="./index.html"><img src="./images/logo.jpg" alt=""></a>
-                <h1><a href="index.html">MOVIES CCD</a></h1>
+                <a href="index.html">MOVIES CCD</a>
             </div>
 
             <form class="searchBar" action="search-results.html" method="get" id="srchBar">
@@ -41,152 +41,13 @@
 
         <main class="main-index">
             <h2>PELICULAS MAS POPULARES</h2>
-
-            <section class="populares">
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/Peliculas/openheimer.jpg" alt="">
-                        <h3 class="tituloPeli">Oppenheimer - 2023</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/Peliculas/barbie.png" alt="">
-                        <h3 class="tituloPeli">Barbie - 2023</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/Peliculas/transformers.png" alt="">
-                        <h3 class="tituloPeli">Transformers - 2009</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/Peliculas/hazme el favor.png" alt="">
-                        <h3 class="tituloPeli">Hazme el favor - 2023</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="">
-                        <img src="./images/Peliculas/endgame.png" alt="">
-                        <h3 class="tituloPeli">Avengers Endgame - 2019</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/Peliculas/cars.jpg" alt="">
-                        <h3 class="tituloPeli">Cars - 2006</h3>
-                    </a>
-                </div>
-
-
-            </section>
-
+            <section class="populares movieResults" id="pelisList"></section>
 
             <h2>SERIES MAS POPULARES</h2>
+            <section class="populares movieResults" id="seriesList"></section>
 
-             <section class="populares">
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/breaking.jpg" alt="">
-                        <h3 class="tituloPeli">Breaking Bad - 2008</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/lacasadepapel.jpg" alt="">
-                        <h3 class="tituloPeli">La casa de papel - 2017</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/flash.jpg" alt="">
-                        <h3 class="tituloPeli">Flash - 2014</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/friends.jpg" alt="">
-                        <h3 class="tituloPeli">Friends - 1994</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/office.jpg" alt="">
-                        <h3 class="tituloPeli">The office - 2005</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-serie.html">
-                        <img src="./images/series/rickandmorty.jpg" alt="">
-                        <h3 class="tituloPeli">Rick and  Morty - 2013</h3>
-                    </a>
-                </div>
-
-
-            </section>
-
-            <h2>LO MAS VISTO EN PELICULAS</h2>
-
-            <section class="populares">
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/medioshermanos.jpg" alt="">
-                        <h3 class="tituloPeli">Medios hermanos - 2020</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/secuestroendirecto.jpg" alt="">
-                        <h3 class="tituloPeli">Secuestro en directo - 2022</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/unjefeenpañales.jpg" alt="">
-                        <h3 class="tituloPeli">Un jefe en pañales - 2017</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/reyesdelacalle.jpg" alt="">
-                        <h3 class="tituloPeli">Reyes de la calle - 2008</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/agentestone.jpg" alt="">
-                        <h3 class="tituloPeli">Agente Stone - 2023</h3>
-                    </a>
-                </div>
-
-                <div class="peli">
-                    <a href="detail-movie.html">
-                        <img src="./images/peliculas mas vistas/misionimposible1.jpg" alt="">
-                        <h3 class="tituloPeli">Mision imposible - 2023</h3>
-                    </a>
-                </div>
-
-
-            </section>
+            <h2>PELICULAS MEJOR CALIFICADAS</h2>
+            <section class="populares movieResults" id="qualifiedList"></section>
 
         </main>
 
@@ -201,6 +62,6 @@
             </ul>
         </footer>
     </div>
-    <script type="text/javascript" src="./js/search-results.js"></script> 
+    <script type="text/javascript" src="./js/index.js"></script> 
 </body>
 </html>

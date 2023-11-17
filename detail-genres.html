@@ -20,7 +20,7 @@
     <Header>
         <div class="header-left-block">
             <a href="./index.html"><img src="./images/logo.jpg" alt=""></a>
-            <h1><a href="index.html">MOVIES CCD</a></h1>
+            <a href="index.html">MOVIES CCD</a>
         </div>
 
         <form class="searchBar" action="search-results.html" method="get" id="srchBar">
@@ -37,53 +37,9 @@
         </nav>
     </Header>
 
-    <h1>TERROR</h1>
+    <h1 id="genreName"></h1>
 
-    <section class="populares">
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/descarga.jpg" alt="">
-                <h3 class="tituloPeli">Megan - 2022</h3>
-            </a>
-        </div>
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/el exorsista 1973.jpg" alt="">
-                <h3 class="tituloPeli">El exorsista - 1973</h3>
-            </a>
-        </div>
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/X 2022.jpg" alt="">
-                <h3 class="tituloPeli">X - 2022</h3>
-            </a>
-        </div>
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/SCREAM VI 2023.jpg" alt="">
-                <h3 class="tituloPeli">Scream VI - 2023</h3>
-            </a>
-        </div>
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/the medium 2021.jpg" alt="">
-                <h3 class="tituloPeli">The medium - 2021</h3>
-            </a>
-        </div>
-
-        <div class="peli">
-            <a href="detail-movie.html">
-                <img src="./images/terror/la noche del demonio.jpg" alt="">
-                <h3 class="tituloPeli">La noche del demonio - 2022</h3>
-            </a>
-        </div>
-
-    </section>
+    <section class="populares" id="movieList"></section>
     <footer>
         <h2>MOVIES CCD</h2>
         <img src="./images/logo.jpg" alt="">
@@ -93,6 +49,7 @@
             <li>Francisco Dini</li>
         </ul>
     </footer>
-    
+    <script type="text/javascript" src="./js/detail-genres.js"></script> 
+
 </body>
 </html>

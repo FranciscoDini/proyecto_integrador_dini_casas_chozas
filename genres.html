@@ -2,15 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=M, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Movies CCD - Generos</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./css/styles.css">
 
@@ -22,7 +22,7 @@
             <Header>
                 <div class="header-left-block">
                     <a href="./index.html"><img src="./images/logo.jpg" alt=""></a>
-                    <h1><a href="index.html">MOVIES CCD</a></h1>
+                    <a href="index.html">MOVIES CCD</a>
                 </div>
 
                 <form class="searchBar" action="search-results.html" method="get" id="srchBar">
@@ -42,14 +42,11 @@
             <main>
 
                 <h1 class="gen">Generos</h1>
-                
-                
-                <ul class="generos">
-                    <li><a href="detail-genres.html">SUSPENSO</a></li>
-                    <li><a href="detail-genres.html">TERROR</a></li>
-                    <li><a href="detail-genres.html">DRAMA</a></li>
-                </ul>
+                <h2>GENEROS DE PELICULAS</h2>
+                <section id="movieGenres"></section>
 
+                <h2>GENEROS DE SERIES</h2>
+                <section id="tvGenres"></section>
             </main>
 
             <footer>
@@ -62,5 +59,7 @@
                 </ul>
             </footer>
         </div>
+        <script type="text/javascript" src="./js/genres.js"></script> 
+
     </body>
 </html>

@@ -55,6 +55,6 @@ fetch(`https://api.themoviedb.org/3/search/movie?query=${busqueda}&include_adult
     //                     movieListElement.appendChild(listItem);
     //                 });
     })
-  .catch(err => console.error(err));
+  .catch(err => console.error(err));  
 
 

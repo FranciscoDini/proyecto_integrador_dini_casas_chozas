@@ -76,7 +76,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 36px;
-    background-color: #0e0b0b;
+    /*background-color: #0e0b0b;*/
     border-radius: 6px;
     margin: 24px 0;
 }
@@ -98,7 +98,7 @@ body{
 
 .peli{
     background-color: #0e0b0b9c;
-    padding: 2%;
+    padding: 10%;
     margin: 20px;
     justify-content: flex-start;
     border-radius: 12px;

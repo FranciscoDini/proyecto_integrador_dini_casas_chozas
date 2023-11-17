@@ -24,10 +24,10 @@
                 <h1><a href="index.html">MOVIES CCD</a></h1>
             </div>
 
-            <div class="searchBar">
-                <input type="text" class="searchMovie">
-                <a href="./search-results.html"><img src="./images/lupa-search.png" alt=""></a>
-            </div>
+            <form class="searchBar" action="search-results.html" method="get" id="srchBar">
+                <input type="text" name="busqueda" class="searchMovie" id="srchMovie">
+                <button type="submit"><img src="./images/lupa-search.png" alt=""></button>
+            </form>
 
             <nav class="navegacion">
                 <ul>
@@ -40,7 +40,7 @@
 
         
         <main class="main-index">
-            <h2 id="queryTitle">Resultados de búsqueda para: </h2>
+            <h2 id="queryTitle"></h2>
 
             <section class="populares">
                 <div class="movieResults" id="movieList"></div>

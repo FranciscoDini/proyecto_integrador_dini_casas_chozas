@@ -1,5 +1,8 @@
 //Tomamos el id de localstorage
-let id = localStorage.getItem('movieID')
+let queryString = location.search
+let queryStringObj = new URLSearchParams(queryString)
+let id = queryStringObj.get('id')
+
 console.log(id)
 
 //Guardamos en una variable la url generica para las fotos de portada

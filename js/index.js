@@ -68,3 +68,8 @@ fetch(`https://api.themoviedb.org/3/movie/top_rated?`, options)
     }
   })
   .catch(err => console.error(err));
+
+  let peliculas = document.querySelector('.peli')
+
+
+
